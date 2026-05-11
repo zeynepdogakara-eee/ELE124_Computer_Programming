@@ -11,7 +11,13 @@ This repository contains my weekly homework for the ELE 124 course.
   * Array manipulation and memory addressing
   * Defensive Programming (using `const` and `unsigned long` to prevent overflows)
   * State tracking without library functions
+### Homework 2: String Compression and Recursive Patterns
 
+* **Description:** A C program featuring two distinct functions: one for lossless string compression of consecutive characters and another for generating geometric patterns using recursive logic.
+* **Key Technical Concepts Used:** * String Manipulation: Character-by-character processing with `string.h` integration.
+    * Run-Length Encoding (RLE) Logic: Detecting consecutive repetitions and flattening data into a character-count format.
+    * **Recursion:** Implementing complex output patterns without iterative loops (while/for), focusing on base case and stack management.
+    * Memory Awareness: Handling user-provided strings within pre-allocated buffers.
 ## How to Run
 
 1. Download the `.c` files.
