@@ -1,0 +1,7 @@
+DEV01:OK:System normal
+DEV12:FAIL:Overheat detected
+DEV15:OK:All sensors active
+DEV27:FAIL:Low battery
+DEV19:FAIL:Sensor disconnected
+DEV33:OK:Running smoothly
+DEV44:FAIL:Memory error
