@@ -23,6 +23,13 @@ This repository contains my weekly homework for the ELE 124 course.
   * String Tokenization: Utilizing `strtok` to split delimited string data (`:`) into discrete memory buffers.
   * String Manipulation & Comparison: Using `strcpy` for safe variable assignments and `strcmp` for exact status evaluation.
   * Data Sanitization: Calculating string lengths to dynamically detect and remove trailing newline characters from input streams.
+### Homework 4: Image Steganography and File I/O
+* **Description:** A C program that demonstrates basic steganography by hiding a secret text message within a generated 300x300 grayscale image (`.pgm` format). The program creates a random noise matrix, embeds a string into the initial pixels by utilizing ASCII values, writes the data to an external image file, and subsequently reads the file back to decode and reveal the hidden message.
+* **Key Technical Concepts Used:** * File I/O and Format Handling
+  * Reading and Writing Structured Files: Using `fopen`, `fprintf`, and `fscanf` to create and parse specific file headers (P2 format) and large datasets.
+  * **Implicit Type Casting (ASCII):** Leveraging C's native handling of characters as integers to seamlessly embed text into an integer matrix and extract it using `%c` format specifiers.
+  * 2D Array Manipulation: Populating, traversing, and modifying a 300x300 matrix to represent 8-bit image pixels.
+  * Random Number Generation: Utilizing `rand() % 256` to simulate grayscale pixel noise for perfect data camouflage.
 ## How to Run
 
 1. Download the `.c` files.
